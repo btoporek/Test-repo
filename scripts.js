@@ -21,25 +21,31 @@ console.log(availablePlaneSeats);
 console.log(costOfGroceries);
 console.log(middleInitial);
 console.log (isHotOutside);
-console.log(customerFirstName):
+console.log(customerFirstName);
 console.log(streetAddress);
 
 
 
 //a customer booked 2 plane seats, remove 2 seats from the available seats variable
-
+availablePlaneSeats = availablePlaneSeats - 2;
+console.log(availablePlaneSeats);
 
 //impulse candy bar purchase, add 2.15 to the grocery total
 //costOfGroceries = costOfGroceries + 2.15;
-
+costOfGroceries = costOfGroceries + 2.15;
+console.log(costOfGroceries);
 
 //birth certificate was printed incorrectly, change the middle initial to something else
-
+middleInitial = "L"
+console.log(middleInitial);
 
 //the season has changed, update the hot outside variable to be opposite of what it was
-
+isHotOutside = !isHotOutside;
+console.log(isHotOutside);
 
 //create a new variable called full name using the customer's first name, the middle initial, and a last name of your choice
-
+let customerFullName = customerFirstName + " " + middleInitial + " " + "Jones";
+console.log(customerFullName);
 
 //print a line to the console that introduces the customer and says they live at the address variable
+console.log('Hi, my name is ' + customerFullName + ' and I live at ' + streetAddress + '.');
